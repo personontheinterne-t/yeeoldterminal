@@ -114,10 +114,6 @@ int main() {
       cout << "SYSTEM: Shutting down.\n";
       sleep(5);
       return 0;
-    } else if (cmd == "aot") {
-      cout << "Noah, ask yourself if I would sacrifice my antiweeb ways for you to try out a program.\n";
-    } else if (cmd == "MyHeroAcadamia") {
-      cout << "Reuben, read line 102 of my code.\n";
     } else if (cmd == "pizz") {
       cout << "Cohncawlolsraksfj\n";
     } else if (cmd == "DooM") {
