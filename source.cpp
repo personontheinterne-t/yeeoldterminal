@@ -43,13 +43,13 @@ int main() {
       cout << "Select File (1/2/3)";
       cin >> file;
       if (file == "1") {
-        cin >> file1;
+        getline(cin, file1);
         cout << "Accesable by typing the file slot at prompt\n";
       } if (file == "2") {
-        cin >> file2;
+        getline(cin, file2);
         cout << "Accesable by typing the file slot at prompt\n";
       } else if (file == "3") {
-        cin >> file3;
+        getline(cin, file3);
         cout << "Accesable by typing the file slot at prompt\n";
       }
     }else if (cmd == "file1") {
